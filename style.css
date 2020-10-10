@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #eeeeee;
+}
+
+.top_container {
+  background-color: #d9ecf2;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+.bottom-container{
+
+  margin-top:50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bottom-container a img{
+  margin-right: 20px;
+
+}
+
+.bottom_cloud {
+  position: absolute;
+}
+
+h1 {
+  font-size: 3vw;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  margin-top: 150px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top_cloud {
+  position: absolute;
+  top: 50px;
+  right: 500px;
+}
+
+.pp {
+  margin-right: 50;
+}
+
+.middle-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.education {
+  position: relative;
+}
+hr{
+  margin-bottom:100px;
+  border-top: 3px solid #555555;
+  width: 1000px;
+
+}
+
+
+.about_me {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about_me h3 {
+  margin: 0;
+}
+
+.about_me > div{
+  margin: 0 50px;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.abilities{
+  width: 500px;
+}
+.abilities li{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+.sh{
+  padding-left: 40px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.bl{
+  border-top: 1px solid;
+  border-color: black;
+
+}
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+.work{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top:60px;
+  margin-left: 250px;
+}
+
+.work > div{
+  margin: 20px 30px;
+}
+.work_def{
+  text-align: left;
+  margin-left: 40px;
+}
+.university{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  margin-left:150px;
+}
+.uni_pic {
+  width: 150px;
+}
+.university > div {
+  margin:50px;
+
+}
+.university > .ab {
+  margin:0 50px 50px 50px;
+
+}
+.uni_text{
+  word-wrap: break-word;
+  width: 300px;
+}
+.uni_details > h3 {
+  margin: 0;
+}
+
+.work > .work_img{
+  margin-top:0;
+}
+.glyphicon{
+ font-size: 14px;
+}
+.empty{
+  font-size: 14px;
+  color:#cdc9c3;
+}
+.shorty{
+margin-bottom:20px;
+width: 500px;
+border-color: #555555;
+}
+
+.about h2{
+  margin-top:0;
+}
+.abilities ul {
+  margin-bottom: 50px;
+}
+a{
+  font-size: 14px;
+}
+.contact-me h2{
+  margin-top: 80px;
+  margin-bottom:30px;
+}
